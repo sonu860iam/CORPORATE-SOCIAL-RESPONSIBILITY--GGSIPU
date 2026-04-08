@@ -9,15 +9,25 @@ function ClubTeams() {
   // Team data
   const teams = [
     {
+      // all teams, members, including lead and Co-lead, pictures haven't been received yet, so whenever tech team members are working on this, changes( put the latest image as per the updated member )
       id: 1,
       name: "Management Team",
       icon: "team.png", // Path to your .png image
       description: "The Management Team handles the overall operations, planning, and coordination of the club.",
       members: [
-        { name: "Shashwat Tiwari", designation: "Lead", photo: "management1.png.jpeg" },
-        { name: "Abhijith", designation: "Co-Lead", photo: "management2.png.jpeg" },
-        { name: "Shonal", designation: "Executed Member", photo: "shonal.png.png" },
-        { name: "kartik", designation: "Executed Member", photo: "management4.png.jpeg" },
+        { name: "Prashant Baliyan", designation: "Lead", photo: "management1.png.jpeg" },
+        { name: "Chirag Tomar", designation: "Co-Lead", photo: "management2.png.jpeg" },
+        { name: "Yashita Gaur", designation: "Executed Member", photo: "shonal.png.png" },
+        { name: "Raman Raj", designation: "Member", photo: "management4.png.jpeg" },
+        { name: "Divjot Bedi", designation: "Member", photo: "management4.png.jpeg" },
+        { name: "Aakash Dabas", designation: "Member", photo: "management4.png.jpeg" },
+        { name: "ASHISH KUMAR", designation: "Member", photo: "management4.png.jpeg" },
+        { name: "Pushkar", designation: "Member", photo: "management4.png.jpeg" },
+        { name: "Rakshit Papnai", designation: "Member", photo: "management4.png.jpeg" },
+        { name: "Aaryan Giri", designation: "Member", photo: "management4.png.jpeg" },
+        
+        
+        
       ],
     },
     {
@@ -26,8 +36,18 @@ function ClubTeams() {
       icon: "public-relation.png", // Path to your .png image
       description: "The Content and PR Team is responsible for creating engaging content and managing public relations.",
       members: [
-        { name: "Kardam", designation: "Lead", photo: "pr1.png.jpeg" },
-        { name: "Sachin", designation: "Co-Lead", photo: "pr2.png.jpeg" },
+        { name: "Divyanshu Choubey", designation: "Lead", photo: "pr1.png.jpeg" },
+        { name: "Ayushi Singh", designation: "Co-Lead", photo: "pr2.png.jpeg" },
+        { name: "Aaditya Upadhyay", designation: "Member", photo: "pr2.png.jpeg" },
+        { name: "Devesh ", designation: "Member", photo: "pr2.png.jpeg" },
+        { name: "Ayan", designation: "Member", photo: "pr2.png.jpeg" },
+        { name: "Akash Kumar", designation: "Member", photo: "pr2.png.jpeg" },
+        { name: "Vansh Singh", designation: "Member", photo: "pr2.png.jpeg" },
+        { name: "Rishabh gaur", designation: "Member", photo: "pr2.png.jpeg" },
+        { name: "Manish kumar", designation: "Member", photo: "pr2.png.jpeg" },
+        { name: "Aarush Jindal", designation: "Member", photo: "pr2.png.jpeg" },
+        
+        
       ],
     },
     {
@@ -36,7 +56,10 @@ function ClubTeams() {
       icon: "connection.png", // Path to your .png image
       description: "The Tech Team develops and maintains the club's technical infrastructure and digital presence.",
       members: [
-        { name: "Krish Gupta", designation: "Web Admin", photo: "krish.png.jpeg" },
+        { name: "Ojus Mathur", designation: "Lead", photo: "ojusTechTeamLead.jpeg" },
+        { name: "Shubham Shankar", designation: "Co-Lead", photo: "krish.png.jpeg" },
+        { name: "Sonu Kumar Yadav", designation: "Member", photo: "krish.png.jpeg" },
+        
       ],
     },
     {
@@ -45,10 +68,13 @@ function ClubTeams() {
       icon: "vector.png", // Path to your .png image
       description: "The Graphics and Design Team creates visual content, including posters, logos, and social media graphics.",
       members: [
-        { name: "Achint Kaur", designation: "Lead", photo: "desgin1.png.jpeg" },
-        { name: "Arman", designation: "Co-Lead", photo: "design2.png.jpeg" },
-        { name: "Devanshu", designation: "Executive-Member", photo: "design2=3.png.jpeg" },
-        { name: "Shruti", designation: "Executive-Member", photo: "design4.png.jpeg" },
+        { name: "Arti Verma", designation: "Lead", photo: "desgin1.png.jpeg" },
+        { name: "Chirag Malviya", designation: "Co-Lead", photo: "design2.png.jpeg" },
+        { name: "Devanshu", designation: "Member", photo: "design2=3.png.jpeg" },
+        { name: "Arghyadeep Sen", designation: "Member", photo: "design4.png.jpeg" },
+        { name: "Prajjwal kumar Srivastava", designation: "Member", photo: "design4.png.jpeg" },
+        { name: "Anand Kumar Gautam", designation: "Member", photo: "design4.png.jpeg" },
+        
       ],
     },
   ];

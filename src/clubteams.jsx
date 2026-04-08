@@ -56,7 +56,7 @@ function ClubTeams() {
       icon: "connection.png", // Path to your .png image
       description: "The Tech Team develops and maintains the club's technical infrastructure and digital presence.",
       members: [
-        { name: "Ojus Mathur", designation: "Lead", photo: "ojusTechTeamLead.jpeg" },
+        { name: "Ojus Mathur", designation: "Lead", photo: "ojusTechTeamLead.jpeg" },//picupdated
         { name: "Shubham Shankar", designation: "Co-Lead", photo: "krish.png.jpeg" },
         { name: "Sonu Kumar Yadav", designation: "Member", photo: "krish.png.jpeg" },
         
@@ -68,12 +68,12 @@ function ClubTeams() {
       icon: "vector.png", // Path to your .png image
       description: "The Graphics and Design Team creates visual content, including posters, logos, and social media graphics.",
       members: [
-        { name: "Arti Verma", designation: "Lead", photo: "desgin1.png.jpeg" },
-        { name: "Chirag Malviya", designation: "Co-Lead", photo: "design2.png.jpeg" },
+        { name: "Arti Verma", designation: "Lead", photo: "ArtiLeadD&C.png" },//picupadted
+        { name: "Chirag Malviya", designation: "Co-Lead", photo: "ChiragColeadD&C.jpeg" },//picupdated
         { name: "Devanshu", designation: "Member", photo: "design2=3.png.jpeg" },
         { name: "Arghyadeep Sen", designation: "Member", photo: "design4.png.jpeg" },
         { name: "Prajjwal kumar Srivastava", designation: "Member", photo: "design4.png.jpeg" },
-        { name: "Anand Kumar Gautam", designation: "Member", photo: "design4.png.jpeg" },
+        { name: "Anand Kumar Gautam", designation: "Member", photo: "AnandKGautamMemberD&C.jpeg" },//picupdated
         
       ],
     },
